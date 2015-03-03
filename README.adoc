@@ -1,0 +1,18 @@
+= the-23-gang-of-four-design-patterns-with-cplusplus
+
+[NOTE]
+源代码整理自 k_eckel 的《设计模式精解-GoF 23 种设计模式解析附 C++实现源码》
+
+== 用法
+
+----
+$ git clone https://github.com/fifilyu/the-23-gang-of-four-design-patterns-with-cplusplus.git
+$ mkdir the-23-gang-of-four-design-patterns-with-cplusplus_build
+$ cd the-23-gang-of-four-design-patterns-with-cplusplus_build
+$ cmake ../the-23-gang-of-four-design-patterns-with-cplusplus
+$ make -j 4
+$ ls bin
+AbstactFactory  Bridge                 Command    Facade     Interpreter  Memento    Proxy      Strategy
+AdapterClass    Builder                Composite  Factory    Iterator     Observer   Singleton  Template
+AdapterObject   ChainofResponsibility  Decorator  Flyweight  Mediator     Prototype  State      Visitor
+----
